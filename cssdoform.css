@@ -1,0 +1,62 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Century Gothic';
+}
+
+body 
+{
+    background-color:rgb(198, 202, 255)
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(255, 128, 82);
+    color: aliceblue;
+    font-family: Cambria, Arial;
+}
+
+.container form
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+}
+
+.container form > div
+{
+    display: inline-grid;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.container form > div.botao
+{
+    display: block;
+}
+
+.container form > div > label
+{
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+}
+
+input, select, textarea
+{
+    min-height: 30px;
+    margin-right: 5px;
+}
+
+input[type="button"]
+{
+    padding: 5px;
+}
